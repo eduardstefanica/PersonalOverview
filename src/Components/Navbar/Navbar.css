@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+  background-color: #212529; /* Colore di sfondo */
+  color: #fff; /* Colore del testo */
+  padding: 15px 0; /* Spaziatura interna sopra e sotto */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra */
+  text-align: center; /* Allinea il testo al centro */
+}
+
+.navbar-brand {
+  font-family: 'Arial Black', sans-serif; /* Font con caratteri speciali */
+  font-size: 24px; /* Dimensione del testo */
+}
+
+.navbar-brand:hover {
+  color: #f8f9fa; /* Cambia il colore del testo al passaggio del mouse */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Sposta il menu a destra */
+}
+
+.nav-link {
+  color: #fff; /* Colore del testo dei link */
+  font-size: 18px; /* Dimensione del testo dei link */
+  margin-right: 20px; /* Spaziatura tra i link */
+}
+
+.nav-link:hover {
+  color: #f8f9fa; /* Cambia il colore del testo al passaggio del mouse */
+}
+
+/* Aggiungi altri stili secondo necessità */

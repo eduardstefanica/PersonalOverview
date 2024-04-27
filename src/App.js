@@ -1,25 +1,27 @@
-import './css/App.css'; // Mantieni l'importazione del file CSS se necessario
-import './css/BigCard.css';
-//import './css/SmallCard.css';
+import React from 'react';
+import './App.css';
+//import Home from './Components/Home';
+import './Components/Card/BigCard.css';
+//import './Components/Card/SmallCard.css';
+import Navbar from './Components/Navbar/Navbar';
+
 function App() {
   return (
     <div className="App">
+      <Navbar /> {/* Navbar fuori dal Card */}
+
       <header className="App-header">
-      <div class="card">
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a><br></br> 
-      </div>
-
-
+        <div className="container">
+        </div>
       </header>
+
+      <div className="container">
+        <div className="card">
+          {/* Il tuo componente Card qui */}
+        </div>
+      </div>
     </div>
+
   );
 }
 
