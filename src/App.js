@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-//import Home from './Components/Home';
 import './Components/Card/BigCard.css';
-//import './Components/Card/SmallCard.css';
 import Navbar from './Components/Navbar/Navbar';
+//import fotoCV from './src/img/fotoCV.png';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar /> {/* Navbar fuori dal Card */}
+      <Navbar />
 
       <header className="App-header">
         <div className="container">
@@ -17,12 +17,13 @@ function App() {
 
       <div className="container">
         <div className="card">
-          {/* Il tuo componente Card qui */}
+          <img src="./src/img/fotoCV.png" alt="Your Image" className="card-image" />
+          {/* Aggiungi l'immagine 1:1 qui */}
         </div>
       </div>
     </div>
-
   );
 }
 
 export default App;
+

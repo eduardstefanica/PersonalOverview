@@ -28,6 +28,27 @@ App {
   color: #69523b; 
 }
 
+card {
+  position: relative; /* Posizione relativa */
+  width: 300px; /* Larghezza del card */
+  height: 300px; /* Altezza del card */
+  background-color: #f0f0f0; /* Colore di sfondo del card */
+  border: 1px solid #ccc; /* Bordo del card */
+  border-radius: 8px; /* Arrotonda i bordi del card */
+  overflow: hidden; /* Nasconde il contenuto oltre i limiti del card */
+}
+
+.card-image {
+  position: absolute; /* Posizione assoluta */
+  top: 0; /* Posizione in alto */
+  left: 50%; /* Posizione al centro */
+  transform: translateX(-50%); /* Sposta l'immagine al centro */
+  width: 200px; /* Larghezza dell'immagine */
+  height: auto; /* Altezza automatica */
+  aspect-ratio: 1 / 1; /* Rapporto di aspetto 1:1 */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
