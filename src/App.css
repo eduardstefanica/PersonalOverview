@@ -48,6 +48,31 @@ card {
   aspect-ratio: 1 / 1; /* Rapporto di aspetto 1:1 */
 }
 
+.social-buttons {
+  position: absolute;
+  bottom: 20px; /* Regola la distanza dal fondo del card */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.social-button {
+  background-color: #69523b;
+  color: white;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-button:hover {
+  background-color: #69523b;
+}
 
 @keyframes App-logo-spin {
   from {
