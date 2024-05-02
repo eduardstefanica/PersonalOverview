@@ -6,7 +6,7 @@ import './Navbar.css'; // Importa i tuoi stili CSS
 const Navbar = () => {
   return (
     <nav className="navbar navbar-dark bg-dark">
-        <span className="navbar-text">Eduard Stefanica Overview</span>
+        <span className="navbar-text">Panoramic Overview</span>
     </nav>
   );
 }

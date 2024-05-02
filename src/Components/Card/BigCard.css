@@ -21,7 +21,7 @@
   width: calc(220px * 1.35); /* Aumenta la larghezza dell'immagine del 10% */
   height: calc(223px * 1.2); /* Aumenta l'altezza dell'immagine del 10% */
   object-fit: cover; /* Mantieni la proporzione originale e copri completamente il contenitore */
-  margin-top: 50px; /* Aggiunge del margine sopra l'immagine */
+  margin-top: 60px; /* Aggiunge del margine sopra l'immagine */
 }
 
 .bg {
