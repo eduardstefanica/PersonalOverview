@@ -1,1 +1,4 @@
-app per visualizzare overview con i vari collegamennti ai vari social e informazioni di contatto di Eduard Stefanica
+applicazione react creata appositamente per Linkedin;
+-visualizzazione overview con i vari collegamennti ai vari social 
+-informazioni di contatto di Eduard Stefanica
+-Cv Moderno
