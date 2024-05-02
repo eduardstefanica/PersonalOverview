@@ -1,7 +1,6 @@
 // Navbar.jsx
 import React from 'react';
-import './Navbar.css'; // Importa i tuoi stili CSS
-//import photoSrc from './src/img/fotoCV.png'; // Importa la foto
+import './Navbar.css';
 
 const Navbar = () => {
   return (

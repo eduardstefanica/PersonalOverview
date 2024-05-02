@@ -29,28 +29,28 @@ App {
 }
 
 card {
-  position: relative; /* Posizione relativa */
-  width: 300px; /* Larghezza del card */
-  height: 300px; /* Altezza del card */
-  background-color: #f0f0f0; /* Colore di sfondo del card */
-  border: 1px solid #ccc; /* Bordo del card */
-  border-radius: 8px; /* Arrotonda i bordi del card */
-  overflow: hidden; /* Nasconde il contenuto oltre i limiti del card */
+  position: relative; 
+  width: 300px; 
+  height: 300px; 
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  overflow: hidden; 
 }
 
 .card-image {
-  position: absolute; /* Posizione assoluta */
-  top: 0; /* Posizione in alto */
-  left: 50%; /* Posizione al centro */
-  transform: translateX(-50%); /* Sposta l'immagine al centro */
-  width: 200px; /* Larghezza dell'immagine */
-  height: auto; /* Altezza automatica */
-  aspect-ratio: 1 / 1; /* Rapporto di aspetto 1:1 */
+  position: absolute;
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 200px; 
+  height: auto; 
+  aspect-ratio: 1 / 1; 
 }
 
 .social-buttons {
   position: absolute;
-  bottom: 20px; /* Regola la distanza dal fondo del card */
+  bottom: 20px; 
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -77,7 +77,7 @@ card {
 .text-section {
   margin-left: auto;
   margin-right: auto;
-  text-align: center; /* Centra anche il testo all'interno della sezione */
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
